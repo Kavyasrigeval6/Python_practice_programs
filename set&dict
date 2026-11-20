@@ -1,0 +1,87 @@
+set1=set('abgth')
+set2=set('acdeh')
+print(set1-set2)#difference:set1
+print(set1|set2)#union
+print(set1^set2)#Symmetric difference:both
+print(set1&set2)#intersection
+set3={1,2,3}
+print(type(set3))
+set4={}
+print(type(set4))
+data={'A':1,'B':2,'C':3,'B':5}#takes B value as 5
+print(data)
+keys={1,2,3}
+values={'aa','bb','cc'}
+dict1=dict(zip(keys,values))
+print(dict1)
+dict1.pop(1)
+del data['A']
+print(data)
+data1={'name':'AAA','Num':1,'subj':['eng','mat','sci'],'marks':{'eng':30,'mat':50,'sci':90}}
+print(data1)
+A = {1, 2, 3, 4}
+B = {3, 4, 5, 6}
+print(A&B)
+numbers = [1, 2, 3, 2, 4, 1, 5]
+unique=set(numbers)
+print(unique)
+#student enrolled in 1 course
+python = {"Arun", "Priya", "Ravi"}
+java = {"Ravi", "Priya", "Kumar"}
+print(python^java)
+A = {2, 4}
+B = {1, 2, 3, 4, 5}
+print(A.issubset(B))
+student = {"name": "Arun", "marks": 80}
+student["marks"]=95
+print(student)
+employee = {
+    "name": "Priya",
+    "age": 25,
+    "salary": 30000,
+    "city": "Chennai"
+}
+print(len(employee))
+text = "banana"
+dict={ }
+for ch in text:
+    if ch in dict:
+        dict[ch] +=1
+    else:
+        dict[ch]=1
+print(dict)
+d1 = {"a": 1, "b": 2}
+d2 = {"b": 10, "c": 3}
+d1.update(d2)
+print(d1)
+prices = {
+    "apple": 20,
+    "milk": 30,
+    "bread": 25
+}
+
+quantities = {
+    "apple": 3,
+    "milk": 2,
+    "bread": 1
+}
+tot=0
+for i in prices:
+    tot+=prices[i]*quantities[i]
+print(tot)
+sentence = "python is easy and python is powerful"
+list1=sentence.split()
+print(set(list1))
+dict1={ }
+for s in list1:
+    if s in dict1:
+        dict1[s]+=1
+    else:
+        dict1[s]=1
+for s in dict1:
+    if dict1[s]==1:
+        print(s)
+
+
+
+
