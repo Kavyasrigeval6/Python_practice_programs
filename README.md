@@ -1,15 +1,17 @@
-#FIRST PROJECT: 
-   This is the first Git and Github project.
-Tasks done:
->Initially created a main branch with data
->Pushed the data to Github
->Created and switched to another branch Feature1
->Made some changes and pushed to Github
->Created and switched to another branch Feature2
->Made some changes and created a pull request
->Finally merged feature1 with feature2
->Integrated remote and local repositories
-Tools used:
->Git
->Github
->VSCode
+#Python Practice Programs
+     This repository contains Python programs and practice exercises that I have created while learning and improving my Python programming skills.
+Topics Covered:
+-Python Basics
+-Variables and Data Types
+-Conditional Statements
+-Loops
+-Functions
+-Lists, Tuples, Sets and Dictionaries
+-String Operations
+-Object-Oriented Programming (OOP)
+-Modules and Packages
+-File Handling
+Technologies used:
+-Python
+-Git
+-Github
